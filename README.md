@@ -5,7 +5,7 @@ Install Elm on your machine by following the instructions on the Elm website.
 
 Create a new file named "Main.elm" and add the following code:
 
-```
+```elm
 module Main exposing (..)
 
 import Html exposing (text)
@@ -17,7 +17,7 @@ This program defines a module named "Main" that imports the text function from t
 
 Compile the Elm program by running the following command in your terminal:
 
-```
+```css
 elm make Main.elm --output=main.js
 ```
 
@@ -25,7 +25,7 @@ This command will generate a JavaScript file named "main.js" that contains the c
 
 Create a new HTML file named "index.html" and add the following code:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
